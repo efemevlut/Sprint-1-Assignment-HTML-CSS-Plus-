@@ -39,20 +39,23 @@ main {
     width: 30%;
     height: 100%;
     padding-bottom: 5vw;
+    flex-wrap: nowrap;
 }
 
 img {
     width: 70%;
     height: 10%;
     float: left;
-    padding-top: 2vw;
+    border-radius: 10px;
 }
 
 span {
     writing-mode: vertical-lr;
-    font-size: 1.5;
+    font-size: 1.5vw;
     font-weight: 800;
-    padding: 4%;
+    padding-left: 4%;
+    position: relative;
+    bottom: 3vw;
 }
 .items-p {
     width: 100%;
@@ -100,5 +103,40 @@ span {
         padding-left: 6%;
     }
 
+    .items-p {
+        font-size: 4vw;    
+    }
 
+    img {
+        width: 33vw;
+    }
+
+    #item2 {
+        position: relative;
+        top: 24vw;
+    }
+
+    #item3 {
+        position: relative;
+        top: 20vw;
+    }
+
+    #item4 {
+        position: relative;
+        top: 40vw;
+    }
+
+    #item5 {
+        position: relative;
+        top: 35vw;
+    }
+
+    #item6 {
+        position: relative;
+        top: 55vw;
+    }
+
+    span {
+        font-size: 3vw;
+    }
 }
